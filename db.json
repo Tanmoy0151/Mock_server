@@ -1,5 +1,8 @@
 {
-    "shirts": [
+
+    "ready_to_ship":[],
+    "Orders":[],
+    "Products": [
         {
           "id": 2,
           "image1": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw58d74713/hi-res/CSQ0033DEN_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
