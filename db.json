@@ -14,29 +14,34 @@
         "userName":"suman Roy",
         "email":"abc@gmail.com",
         "phone":1234567890,
+        "address":"thakurbari,PIN-000000",
         "ParchesAmount":2050,
         "stactus":"pending",
         "OrderProduct":[
             {
                 
-          "id": 2,
-          "image1": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw58d74713/hi-res/CSQ0033DEN_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
-          "image2": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw32203fdc/hi-res/CSQ0033DEN_MODEL_UNTUCKED.jpg?sw=430&sh=538&sm=fit&q=42",
-          "title": "England Rugby Denim Shirt - Denim Blue",
-          "category": "shirts",
-          "price": 119,
-          "quantity":2,
-          "offer": "$59.75 MULTIBUY"
-            },
-            {
-                "id": 4,
-                "image1": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw9626ce83/hi-res/FON0540PNK_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
-                "image2": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw03d446c4/hi-res/FON0540NAV_MODEL_FULL.jpg?sw=430&sh=538&sm=fit&q=42",
-                "title": "Spread Collar Non-Iron Twill Shirt - Pink",
+                "id": 1,
+                "title":"Spread Collar Non-Iron Twill Shirt - Pink",
+                "image":["https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw03d446c4/hi-res/FON0540NAV_MODEL_FULL.jpg?sw=430&sh=538&sm=fit&q=42","https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw9626ce83/hi-res/FON0540PNK_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42"],
                 "category": "shirts",
                 "price": 99,
                 "offer": "$59.75 MULTIBUY",
-                "quantity":2
+                "size":"M",
+                "Brand":"JOKEY",
+                "discount":0.1,
+                "MRP":300
+            },
+            {
+                "id": 1,
+                "title":"Spread Collar Non-Iron Twill Shirt - Pink",
+                "image":["https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw03d446c4/hi-res/FON0540NAV_MODEL_FULL.jpg?sw=430&sh=538&sm=fit&q=42","https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw9626ce83/hi-res/FON0540PNK_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42"],
+                "category": "shirts",
+                "price": 99,
+                "offer": "$59.75 MULTIBUY",
+                "size":"M",
+                "Brand":"JOKEY",
+                "discount":0.1,
+                "MRP":300
             }
         ]
        }
@@ -45,9 +50,11 @@
     "Products": [
         {
             "id": 1,
+            "Keyword":"Spread Collar Non Iron Twill Shirt - Pink",
             "title":"Spread Collar Non-Iron Twill Shirt - Pink",
             "image":["https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw03d446c4/hi-res/FON0540NAV_MODEL_FULL.jpg?sw=430&sh=538&sm=fit&q=42","https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw9626ce83/hi-res/FON0540PNK_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42"],
             "category": "shirts",
+            "sub-Catagory":"Sute",
             "price": 99,
             "offer": "$59.75 MULTIBUY",
             "size":"M",
