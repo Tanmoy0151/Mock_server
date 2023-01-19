@@ -1,0 +1,25 @@
+{
+  "name": "mock_server",
+  "version": "1.0.0",
+  "description": "we are trying moc server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tanmoy0151/Mock_server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tanmoy0151/Mock_server/issues"
+  },
+  "homepage": "https://github.com/Tanmoy0151/Mock_server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json-serve": "^0.1.0",
+    "json-server": "^0.17.1"
+  }
+}
