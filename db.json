@@ -2,91 +2,60 @@
     "UserData":[
         {
             "userId":1,
-            "userName":"suman"
+            "userName":"suman Roy",
+            "password":"abcdefg",
+            "email":"abc@gmail.com",
+            "phone":1234567890
         }
     ],
-    "ready_to_ship":[],
-    "Orders":[],
-    "Products": [
-        {
+    "OrderData":[
+       {
+        "userId":1,
+        "userName":"suman Roy",
+        "email":"abc@gmail.com",
+        "phone":1234567890,
+        "ParchesAmount":2050,
+        "stactus":"pending",
+        "OrderProduct":[
+            {
+                
           "id": 2,
           "image1": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw58d74713/hi-res/CSQ0033DEN_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
           "image2": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw32203fdc/hi-res/CSQ0033DEN_MODEL_UNTUCKED.jpg?sw=430&sh=538&sm=fit&q=42",
           "title": "England Rugby Denim Shirt - Denim Blue",
           "category": "shirts",
           "price": 119,
+          "quantity":2,
           "offer": "$59.75 MULTIBUY"
-        },
+            },
+            {
+                "id": 4,
+                "image1": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw9626ce83/hi-res/FON0540PNK_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
+                "image2": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw03d446c4/hi-res/FON0540NAV_MODEL_FULL.jpg?sw=430&sh=538&sm=fit&q=42",
+                "title": "Spread Collar Non-Iron Twill Shirt - Pink",
+                "category": "shirts",
+                "price": 99,
+                "offer": "$59.75 MULTIBUY",
+                "quantity":2
+            }
+        ]
+       }
+    ],
+   
+    "Products": [
         {
-          "id": 3,
-          "image1": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw13eea116/hi-res/FON0540NAV_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
-          "image2": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw129ef195/hi-res/FON0540PNK_MODEL_FULL.jpg?sw=430&sh=538&sm=fit&q=42",
-          "title": "Spread Collar Non-Iron Twill Shirt - Navy",
-          "category": "shirts",
-          "price": 99,
-          "offer": "$59.75 MULTIBUY"
-        },
-        {
-          "id": 4,
-          "image1": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw9626ce83/hi-res/FON0540PNK_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
-          "image2": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw03d446c4/hi-res/FON0540NAV_MODEL_FULL.jpg?sw=430&sh=538&sm=fit&q=42",
-          "title": "Spread Collar Non-Iron Twill Shirt - Pink",
-          "category": "shirts",
-          "price": 99,
-          "offer": "$59.75 MULTIBUY"
-        },
-        {
-          "id": 5,
-          "image1": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw2bc1be25/hi-res/CSR0964DEN_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
-          "image2": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw99876d29/hi-res/CSR0964DEN_MODEL_TUCKED.jpg?sw=430&sh=538&sm=fit&q=42",
-          "title": "Denim Shirt - Denim ",
-          "category": "shirts",
-          "price": 99,
-          "offer": "$59.75 MULTIBUY"
-        },
-        {
-          "id": 6,
-          "image1": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw1f0e6959/hi-res/FON2482WHT_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
-          "image2": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dwe1d789bc/hi-res/FON2482WHT_MODEL_FULL.jpg?sw=430&sh=538&sm=fit&q=42",
-          "title": "Spread Collar Non-Iron Henley Weave Shirt ",
-          "category": "shirts",
-          "price": 99,
-          "offer": "$59.75 MULTIBUY"
-        },
-        {
-          "id": 7,
-          "image1": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dwc613d41b/hi-res/FON2438FRE_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
-          "image2": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw0ceab526/hi-res/FON2438FRE_MODEL_FULL.jpg?sw=430&sh=538&sm=fit&q=42",
-          "title": "Spread Collar Non-Iron Royal Oxford Shirt - French",
-          "category": "shirts",
-          "price": 109,
-          "offer": "$59.75 MULTIBUY"
-        },
-        {
-          "id": 8,
-          "image1": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw088b57c0/hi-res/FON2482CFW_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
-          "image2": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw7917809e/hi-res/FON2482CFW_MODEL_FULL.jpg?sw=430&sh=538&sm=fit&q=42",
-          "title": "Spread Collar Non-Iron Henley Weave Shirt - Cornflower",
-          "category": "shirts",
-          "price": 99,
-          "offer": "$59.75 MULTIBUY"
-        },
-        {
-          "id": 9,
-          "image1": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dwf5ee8677/hi-res/FON2460LBU_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
-          "title": "Non-Iron Prince Of Wales Check Shirt - Light",
-          "category": "shirts",
-          "price": 99,
-          "offer": "$59.75 MULTIBUY"
-        },
-        {
-          "id": 10,
-          "image1": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw2da5495b/hi-res/FOR2339WHT_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
-          "image2": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dwbe1828c7/hi-res/FON2460LBU_MODEL_FULL.jpg?sw=430&sh=538&sm=fit&q=42",
-          "title": "Semi-Spread Collar Egyptian Cotton Berkshire Weave Shirt",
-          "category": "shirts",
-          "price": 109,
-          "offer": "$59.75 MULTIBUY"
+            "id": 1,
+            "title":"Spread Collar Non-Iron Twill Shirt - Pink",
+            "image":["https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw03d446c4/hi-res/FON0540NAV_MODEL_FULL.jpg?sw=430&sh=538&sm=fit&q=42","https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw9626ce83/hi-res/FON0540PNK_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42"],
+            "category": "shirts",
+            "price": 99,
+            "offer": "$59.75 MULTIBUY",
+            "size":"M",
+            "Brand":"JOKEY",
+            "discount":0.1,
+            "MRP":300
         }
+    
     ]
+       
 }
